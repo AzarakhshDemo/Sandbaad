@@ -7,11 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Az.Sauron" Version="1.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.9.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\meTesting.Sandbaad.Sdk\meTesting.Sandbaad.Sdk.csproj" />
   </ItemGroup>
 
 </Project>
