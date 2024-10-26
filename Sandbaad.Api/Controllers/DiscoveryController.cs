@@ -45,7 +45,7 @@ public class DiscoveryController : ControllerBase
     {
         return Ok(services);
     }
-    [HttpGet("[action]")]
+    [HttpGet("[action]/{key}")]
     public async Task<ActionResult<ServiceMetadata>> GetInstance(string Key)
     {
         var srv = services.FirstOrDefault(a => a.Key == Key);
